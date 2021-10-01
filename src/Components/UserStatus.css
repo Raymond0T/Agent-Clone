@@ -1,0 +1,21 @@
+.UserStatus{
+    background-image: linear-gradient(rgba(29, 29, 49, 0.781), rgba(29, 29, 49, 0.781)), url('../Images/profile-bg.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    color: white;
+}
+
+.UserStatus_CloseBtn{
+    font-size: 28px;
+    color: rgb(250, 249, 249);
+    float: right;
+    cursor: pointer;
+    border: 0;
+    background: transparent;
+}
+.UserStatus_Profile{
+    padding: 3rem 0.5rem;
+    display: flex;
+    align-items: center;
+}

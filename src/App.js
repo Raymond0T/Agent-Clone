@@ -1,23 +1,38 @@
 import logo from './logo.svg';
 import './App.css';
 
+import 'bootstrap/dist/css/bootstrap.min.css';
+import 'bootstrap/dist/js/bootstrap.bundle.min';
+
+import $ from 'jquery';
+import Popper from 'popper.js';
+import UserStatus from './Components/UserStatus';
+import { useState } from 'react';
+
+
+
 function App() {
+
+  const [open, setOpen] = useState(false);
+
+  let displayProfile = () =>{
+    setOpen(!open);
+    console.log(open);
+  }
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <button
+        type="button"
+        className="btn btn-primary"
+        onClick={displayProfile}
+      >
+        Open Page
+      </button>
+    
+      <div id="App_UserProfile" className={!open ? "App_User_Container" : "App_User_Container App_Active"}>
+        <UserStatus displayProfile={displayProfile}/>
+      </div>
+      
     </div>
   );
 }
