@@ -6,6 +6,12 @@
     color: white;
 }
 
+.UserStatus_Profile{
+    padding: 2rem 0.5rem;
+    display: flex;
+    align-items: center;
+}
+
 .UserStatus_CloseBtn{
     font-size: 28px;
     color: rgb(250, 249, 249);
@@ -14,8 +20,12 @@
     border: 0;
     background: transparent;
 }
-.UserStatus_Profile{
-    padding: 3rem 0.5rem;
-    display: flex;
-    align-items: center;
+
+.UserStatus_Dropdown{
+    font-size: 12px;
+}
+
+.UserStatus_Progress{
+    margin-top: 1rem;
+    height: 5px;
 }

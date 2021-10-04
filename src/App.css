@@ -1,3 +1,12 @@
+.custom_sm_font{
+  font-size: 14px;
+}
+.custom_xs_font{
+  font-size: 11px;
+}
+.custom_color_blue{
+  color: rgb(0, 153, 255);
+}
 .App{
   display: flex;
   align-items: center;
@@ -8,25 +17,27 @@
 .App_User_Container{
   height: 100vh;
   width: 100vw;
-  background-color: grey;
   position: fixed;
   top:0;
   right:-150%;
   margin: 0;
   z-index: 1;
   transition: all 300ms ease-in-out;
+  border-left: 1px solid black;
 }
 .App_Active{
   right: 0;
   transition: all 300ms ease-in-out;
 }
 
+.App_Detail_Container{
+  width: 100%;
+  padding: 1rem;
+}
 
-/*
+
 @media screen and (min-width:600px){
   #App_UserProfile{
     width: 500px;
   }
 }
-
-*/

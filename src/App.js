@@ -1,4 +1,4 @@
-import logo from './logo.svg';
+import { useState } from 'react';
 import './App.css';
 
 import 'bootstrap/dist/css/bootstrap.min.css';
@@ -7,7 +7,8 @@ import 'bootstrap/dist/js/bootstrap.bundle.min';
 import $ from 'jquery';
 import Popper from 'popper.js';
 import UserStatus from './Components/UserStatus';
-import { useState } from 'react';
+import RankStats from './Components/RankStats';
+import Badges from './Components/Badges';
 
 
 
@@ -17,7 +18,7 @@ function App() {
 
   let displayProfile = () =>{
     setOpen(!open);
-    console.log(open);
+    //console.log(open);
   }
   return (
     <div className="App">
@@ -31,6 +32,10 @@ function App() {
     
       <div id="App_UserProfile" className={!open ? "App_User_Container" : "App_User_Container App_Active"}>
         <UserStatus displayProfile={displayProfile}/>
+        <div className="App_Detail_Container">
+          <RankStats />
+          <Badges />
+        </div>
       </div>
       
     </div>

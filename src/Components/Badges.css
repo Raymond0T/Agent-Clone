@@ -1,0 +1,58 @@
+.Badges_Progress_Container{
+    border: 1px solid rgb(228, 225, 225);
+    padding: 1rem 0.75rem;
+    border-radius: 5px;
+    margin-bottom: 1rem;
+}
+.Badges_Progress_NonCollapse{
+    position: relative;
+}
+
+.Badges_MileStone{
+    position: absolute;
+    right: 0;
+    top: 43.5%;
+    width: 100%;
+    height: auto;
+}
+
+.Badges_MileStone i{
+    padding-left: 1.5rem;
+}
+
+.testings{
+    height: 6px;
+}
+
+.Badges_Medal_Container{
+    position: relative;
+}
+
+.Badges_Medal{
+    width: 13px;
+    height: 13px;
+    border-radius: 50%;
+    margin-left: 2.25rem;
+    background-color: rgb(255, 255, 255);
+}
+
+.Badges_Medal_Ribbon{
+    position: absolute;
+    border-style: solid;
+    border-width: 5px;
+    width: 0;
+    margin-top: 1px;
+    border-color: #FC402D #FC402D transparent #f0f0f0;
+    right:5%;
+}
+
+.Badges_Bronze{
+    border: 2px solid rgb(170, 101, 23);
+}
+.Badges_Silver{
+    border: 2px solid rgb(192, 192, 192);
+}
+.Badges_Gold{
+    border: 2px solid rgb(241, 167, 6);
+}
+
