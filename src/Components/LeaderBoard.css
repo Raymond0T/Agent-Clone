@@ -1,0 +1,82 @@
+.LeaderBoard_First{
+    position: relative;
+}
+
+.LeaderBoard_RankNumber{
+    padding: 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+    font-size: 11px;
+    z-index: 1;
+    padding-left: 3.5px;
+}
+
+.LeaderBoard_RankNumber::after{
+    content:'';
+    left: 0;
+    width: 15px;
+    height: 15px;
+    position: absolute;
+    background-color: rgb(228, 230, 230);
+    z-index: -1;
+}
+
+.LeaderBoard_Medal_Container{
+    position: relative;
+}
+.LeaderBoard_Medal{
+    position: absolute;
+    width: 9px;
+    height: 9px;
+    border-radius: 50%;
+    background-color: rgb(212, 13, 13);
+    left: 1%;
+}
+.LeaderBoard_Medal_Ribbon{
+    position: absolute;
+    left: 0;
+    transform: translate(45%,175%);
+    border-style: solid;
+    border-width: 2px 4px;
+    height: 5px;
+    width: 0;
+    margin-top: 1px;
+    border-color: #FC402D #FC402D transparent #FC402D;
+}
+
+.LeaderBoard_Stats{
+    margin: 1rem 0;
+    border-top: 1px solid rgb(228, 225, 225);
+    padding: 0.5rem 0;
+}
+.LeaderBoard_CustomNum{
+    background-color: rgb(228, 230, 230);
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    margin-top: 2px;
+}
+
+.LeaderBoard_Bronze{
+    background-color: rgb(170, 101, 23);
+    border-color: rgb(170, 101, 23) rgb(170, 101, 23) transparent rgb(170, 101, 23);
+}
+.LeaderBoard_Silver{
+    background-color: rgb(192, 192, 192);
+    border-color: rgb(192, 192, 192) rgb(192, 192, 192) transparent rgb(192, 192, 192);
+}
+.LeaderBoard_Gold{
+    background-color: rgb(241, 167, 6);
+    border-color: rgb(241, 167, 6) rgb(241, 167, 6) transparent rgb(241, 167, 6);
+}
+
+.LeaderBoard_Bronze_Ribbon{
+    border-color: rgb(170, 101, 23) rgb(170, 101, 23) transparent rgb(170, 101, 23);
+}
+.LeaderBoard_Silver_Ribbon{
+    border-color: rgb(192, 192, 192) rgb(192, 192, 192) transparent rgb(192, 192, 192);
+}
+.LeaderBoard_Gold_Ribbon{
+    border-color: rgb(241, 167, 6) rgb(241, 167, 6) transparent rgb(241, 167, 6);
+}

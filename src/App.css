@@ -24,6 +24,7 @@
   z-index: 1;
   transition: all 300ms ease-in-out;
   border-left: 1px solid black;
+  overflow-y: scroll;
 }
 .App_Active{
   right: 0;

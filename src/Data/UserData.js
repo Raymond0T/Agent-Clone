@@ -44,7 +44,7 @@ export const badgesData = [
         title: "Move-ins & Renewals",
         placement: "Silver",
         current: "32",
-        percentage: "67",
+        percentage: "71",
         detailSection: [
             {
                 title: "Renewals",
@@ -59,4 +59,135 @@ export const badgesData = [
         ],
     }
 
+];
+
+
+export const rankData = [
+    {
+        person: [
+            {
+                name: "Eden Gonzales",
+                icon: "EG",
+                totalPoint: "678",
+                medal: {
+                    leads: "Bronze",
+                    appoint: "Silver",
+                    move: "Bronze"
+                },
+                pointSum:
+                    {
+                        lead:{
+                            cur: "15",
+                            point: "75"
+                        },
+                        convert:{
+                            cur: "1",
+                            point: "20"
+                        },
+                        follow:{
+                            cur: "8",
+                            point: "16"
+                        },
+                        unit:{
+                            cur: "4",
+                            point: "04"
+                        }
+
+                    }
+            },
+            {
+                name: "Johnson David",
+                icon: "JD",
+                totalPoint: "530",
+                medal: {
+                    leads: "Silver",
+                    appoint: "Silver",
+                    move: "Bronze"
+                },
+                pointSum:
+                    {
+                        lead:{
+                            cur: "10",
+                            point: "65"
+                        },
+                        convert:{
+                            cur: "3",
+                            point: "25"
+                        },
+                        follow:{
+                            cur: "5",
+                            point: "20"
+                        },
+                        unit:{
+                            cur: "1",
+                            point: "01"
+                        }
+
+                    }
+            },
+            {
+                name: "John Smith (you)",
+                icon: "JS",
+                totalPoint: "525",
+                medal: {
+                    leads: "Silver",
+                    appoint: "Silver",
+                    move: "Silver"
+                },
+                pointSum:
+                    {
+                        lead:{
+                            cur: "15",
+                            point: "85"
+                        },
+                        convert:{
+                            cur: "12",
+                            point: "35"
+                        },
+                        follow:{
+                            cur: "2",
+                            point: "10"
+                        },
+                        unit:{
+                            cur: "5",
+                            point: "05"
+                        }
+
+                    }
+            },
+            {
+                name: "David Warnar",
+                icon: "DW",
+                totalPoint: "490",
+                medal: {
+                    leads: "Bronze",
+                    appoint: "Bronze",
+                    move: "Bronze"
+                },
+                pointSum:
+                    {
+                        lead:{
+                            cur: "13",
+                            point: "72"
+                        },
+                        convert:{
+                            cur: "7",
+                            point: "40"
+                        },
+                        follow:{
+                            cur: "2",
+                            point: "8"
+                        },
+                        unit:{
+                            cur: "2",
+                            point: "02"
+                        }
+
+                    }
+            }
+        ]
+        
+        
+        
+    }
 ];

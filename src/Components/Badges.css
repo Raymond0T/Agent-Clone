@@ -56,3 +56,8 @@
     border: 2px solid rgb(241, 167, 6);
 }
 
+@media screen and (min-width:500px){
+    .Badges_Medal{
+        margin-left: 3.25rem;
+    }
+}

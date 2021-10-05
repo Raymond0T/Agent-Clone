@@ -9,6 +9,7 @@ import Popper from 'popper.js';
 import UserStatus from './Components/UserStatus';
 import RankStats from './Components/RankStats';
 import Badges from './Components/Badges';
+import LeaderBoard from './Components/LeaderBoard';
 
 
 
@@ -26,6 +27,7 @@ function App() {
         type="button"
         className="btn btn-primary"
         onClick={displayProfile}
+        style={open ? {display:"none"} : {display:"block"}}
       >
         Open Page
       </button>
@@ -35,6 +37,7 @@ function App() {
         <div className="App_Detail_Container">
           <RankStats />
           <Badges />
+          <LeaderBoard />
         </div>
       </div>
       

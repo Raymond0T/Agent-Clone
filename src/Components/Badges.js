@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import './Badges.css';
-import {badgesData, MedalsData} from '../Data/UserData.js';
+import {badgesData} from '../Data/UserData.js';
 
 function Badges(){
 
@@ -37,16 +37,34 @@ function Badges(){
                                     <div className="progress-bar" style={{width:`${badge.percentage}%`}} role="progressbar" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100">
                                         <div className="d-flex justify-content-end Badges_MileStone">
                                             <div className="Badges_Medal_Container">
-                                                <div className="Badges_Bronze Badges_Medal" style={badge.percentage >= 65 ? {backgroundColor: "rgb(170, 101, 23)"} : {backgroundColor:"white"}}></div>
-                                                <div className="Badges_Medal_Ribbon" style={badge.percentage >= 65 ? {display:"block", borderColor: "rgb(170, 101, 23) rgb(170, 101, 23) transparent rgb(170, 101, 23)"} :{display:"none"}}></div>
+                                                <div 
+                                                    className="Badges_Bronze Badges_Medal" 
+                                                    style= {badge.percentage >= 65 ? {backgroundColor: "rgb(170, 101, 23)"} : {backgroundColor:"white"}}>
+                                                </div>
+                                                <div 
+                                                    className="Badges_Medal_Ribbon" 
+                                                    style={badge.percentage >= 65 ? {display:"block", borderColor: "rgb(170, 101, 23) rgb(170, 101, 23) transparent rgb(170, 101, 23)"} :{display:"none"}}>
+                                                </div>
                                             </div>
                                             <div className="Badges_Medal_Container">
-                                                <div className="Badges_Silver Badges_Medal" style={badge.percentage >= 85 ? {backgroundColor: "rgb(192, 192, 192)"} : {backgroundColor:"white"}}></div>
-                                                <div className="Badges_Medal_Ribbon" style={badge.percentage >= 85 ? {display:"block", borderColor: "rgb(192, 192, 192) rgb(192, 192, 192) transparent rgb(192, 192, 192)"} :{display:"none"}}></div>
+                                                <div 
+                                                    className="Badges_Silver Badges_Medal" 
+                                                    style={badge.percentage >= 85 ? {backgroundColor: "rgb(192, 192, 192)"} : {backgroundColor:"white"}}>
+                                                </div>
+                                                <div 
+                                                    className="Badges_Medal_Ribbon" 
+                                                    style={badge.percentage >= 85 ? {display:"block", borderColor: "rgb(192, 192, 192) rgb(192, 192, 192) transparent rgb(192, 192, 192)"} :{display:"none"}}>
+                                                </div>
                                             </div>
                                             <div className="Badges_Medal_Container">
-                                                <div className="Badges_Gold Badges_Medal" style={badge.percentage >= 100 ? {backgroundColor: "rgb(241, 167, 6)"} : {backgroundColor:"white"}}></div>
-                                                <div className="Badges_Medal_Ribbon" style={badge.percentage >= 100 ? {display:"block", borderColor: "rgb(241, 167, 6) rgb(241, 167, 6) transparent rgb(241, 167, 6)"} :{display:"none"}}></div>
+                                                <div 
+                                                    className="Badges_Gold Badges_Medal" 
+                                                    style={badge.percentage >= 100 ? {backgroundColor: "rgb(241, 167, 6)"} : {backgroundColor:"white"}}>
+                                                </div>
+                                                <div 
+                                                    className="Badges_Medal_Ribbon" 
+                                                    style={badge.percentage >= 100 ? {display:"block", borderColor: "rgb(241, 167, 6) rgb(241, 167, 6) transparent rgb(241, 167, 6)"} :{display:"none"}}>
+                                                </div>
                                             </div>
                                         </div>
                                     </div>
