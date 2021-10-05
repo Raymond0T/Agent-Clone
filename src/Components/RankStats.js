@@ -1,5 +1,6 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import './RankStats.css';
+import $ from 'jquery';
 
 //import OverlayTrigger from 'react-bootstrap/OverlayTrigger';
 //import Popover from 'react-bootstrap/Popover'
@@ -17,6 +18,7 @@ function RankStats(){
       <Button>Focus</Button>
   </OverlayTrigger>
 */
+        
 
     return(
         <div className="RankStats">
@@ -26,7 +28,7 @@ function RankStats(){
                     <p className="custom_xs_font text-secondary">April Rank</p>
                 </div>
                 <div className="col col-4 text-center"> 
-                    <button type="button" className="btn btn-none" data-container="body" data-toggle="popover" data-placement="bottom" data-content="testing testing">
+                    <button type="button" className="btn btn-none" data-container="body" data-bs-toggle="popover" data-placement="bottom" data-content="testing testing">
                         <strong className="custom_color_blue">400
                         <i className="bi bi-chevron-down">
                             <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" fill="currentColor" className="bi bi-chevron-down" viewBox="0 0 16 16">
@@ -40,7 +42,7 @@ function RankStats(){
                     <p className="custom_xs_font text-secondary">Points in April</p>
                 </div>
                 <div className="col col-4 text-center">
-                    <button type="button" className="btn btn-none" data-container="body" data-toggle="popover" data-placement="bottom" data-content="testing testing">
+                    <button type="button" className="btn btn-none" data-container="body" data-bs-toggle="popover" data-placement="bottom" data-content="testing testing">
                         <strong className="custom_color_blue">
                             33.1K
                             <i className="bi bi-chevron-down">

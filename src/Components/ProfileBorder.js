@@ -10,7 +10,7 @@ function ProfileBorder({avatar}){
                     <img 
                         src={avatar}
                         className="ProfileBorder_Avatar"
-                        alt="Responsive image">
+                        alt="Profile Avatar">
                     </img>
                 </div>
                 :

@@ -38,12 +38,12 @@
 .ProfileBorder_FrameNA{
     width: 35px;
     height: 35px;
-    background-image: linear-gradient(90deg,rgba(121, 120, 120, 0.4),rgba(121, 120, 120, 0.4),rgba(197, 72, 50,0.6),rgba(197, 72, 50,1));
+    background-image: linear-gradient(90deg,rgba(121, 120, 120, 0.4),rgba(197, 72, 50,0.6),rgba(197, 72, 50,1));
 }
 .ProfileBorder_FrameNA::before{
     width: 35px;
     height: 35px;
-    background-image: linear-gradient(45deg,rgba(121, 120, 120, 0.4),rgba(121, 120, 120, 0.4),rgba(197, 72, 50,0.6),rgba(197, 72, 50,1));
+    background-image: linear-gradient(45deg,rgba(121, 120, 120, 0.4),rgba(197, 72, 50,0.6),rgba(197, 72, 50,1));
 }
 
 /*

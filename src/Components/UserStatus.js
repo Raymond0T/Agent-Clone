@@ -38,12 +38,12 @@ function UserStatus({displayProfile}){
                     <ProfileBorder avatar={ProfileImage}/>
                 </div>
                 <div className="col-8 ">
-                    <h6>JOHN SMITH</h6>
+                    <h6 className="mb-1">JOHN SMITH</h6>
                     <div className="dropdown">
                         <button
                             type="button"
                             id="availability" 
-                            className="btn btn-outline-light dropdown-toggle UserStatus_Dropdown px-2"
+                            className="btn btn-outline-light dropdown-toggle UserStatus_Dropdown p-1"
                             data-bs-toggle="dropdown"
                             aria-expanded="false"
                         >
@@ -92,11 +92,15 @@ function UserStatus({displayProfile}){
                         </i>
                     </div>
 
-                    <div >
-                        <div className="progress UserStatus_Progress">
-                            <div className="progress-bar w-75" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+                    <div className="row d-flex align-items-center">
+                        <div className="col-12 d-flex align-items-center pt-2">
+                            <span className="custom_xs_font"><small>30k</small></span>
+                            <div className="progress UserStatus_Progress">
+                                <div className="progress-bar w-75" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+                            </div>
+                            <span className="custom_xs_font"><small>40k</small></span>
                         </div>
-                        <div className="d-flex justify-content-between pt-1">
+                        <div className="d-flex justify-content-between col-12 UserStatus_Level">
                             <span className="custom_xs_font">Level 3</span>
                             <span className="custom_xs_font">Level 4</span>
                         </div>
