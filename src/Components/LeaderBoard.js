@@ -46,6 +46,7 @@ function LeaderBoard(){
                             >
                                 <div className="card-body">
                                     <div>
+                                         {/*Section for the current medal for each category */}
                                         <div className="LeaderBoard_Medal_Container">
                                             <div className={`LeaderBoard_Medal LeaderBoard_${peeps.medal.leads}`}></div>
                                             <div className={`LeaderBoard_Medal_Ribbon LeaderBoard_${peeps.medal.leads}_Ribbon`}></div>
@@ -67,6 +68,7 @@ function LeaderBoard(){
                                         <h6 className="custom_xs_font mx-3">Move-ins &amp; Renewals </h6>
                                     </div>
 
+                                    {/* To display the stats for every person on the leaderboard */}
                                     <div className="LeaderBoard_Stats">
                                         <div className="d-flex justify-content-between">
                                             <span><strong><small>Point Summary</small></strong></span>

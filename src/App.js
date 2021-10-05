@@ -1,11 +1,15 @@
 import { useState } from 'react';
 import './App.css';
 
-import 'bootstrap/dist/css/bootstrap.min.css';
-import 'bootstrap/dist/js/bootstrap.bundle.min';
+
 
 import $ from 'jquery';
-import Popper from 'popper.js';
+//import Popper from 'popper.js';
+import '@popperjs/core'; 
+import 'bootstrap/dist/css/bootstrap.min.css';
+import 'bootstrap/dist/js/bootstrap.bundle.min';
+//import 'bootstrap/dist/js/bootstrap.bundle.js';
+//import 'bootstrap/dist/js/bootstrap.bundle';
 import UserStatus from './Components/UserStatus';
 import RankStats from './Components/RankStats';
 import Badges from './Components/Badges';
@@ -21,6 +25,7 @@ function App() {
     setOpen(!open);
     //console.log(open);
   }
+  
   return (
     <div className="App">
       <button
